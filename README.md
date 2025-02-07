@@ -3,7 +3,7 @@
 This repository contains system information and script files for Assignment 01.
 
 ## Folder Structure
-
+```lsh
 root/
 ├── _output/
 │   ├── os.txt
@@ -14,7 +14,7 @@ root/
 │   ├── count_python.sh
 │   └── count_github.py
 └── README.md
-
+```
 ## How to Run
 
 1. Clone the repository: `git clone https://github.com/met-ad-688/assignment-01-xinranliiii.git`
