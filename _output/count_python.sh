@@ -1,3 +1,5 @@
 #!/bin/bash
-find . -name "*.py" | wc -l > _output/python_file_count.txt
 
+count=$(grep -i "python" questions.csv question_tags.csv | wc -l)
+
+echo "Total lines containing 'python': $count"
