@@ -17,7 +17,6 @@ jobs:
       id: assignment01_test
       uses: classroom-resources/autograding-python-grader@v1
       with:
-        test-command: pytest
         timeout: 10
         max-score: 45
         setup-command: pip install pytest
